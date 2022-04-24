@@ -1,0 +1,6 @@
+﻿  Log.cpp
+C:\DEVR\Hazel\Hazel\src\Hazel\Log.h(16,42): warning C4251: “Hazel::Log::s_CoreLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
+C:\DEVR\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(34): message : 参见“std::shared_ptr<spdlog::logger>”的声明
+C:\DEVR\Hazel\Hazel\src\Hazel\Log.h(17,42): warning C4251: “Hazel::Log::s_ClientLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
+C:\DEVR\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(34): message : 参见“std::shared_ptr<spdlog::logger>”的声明
+  Hazel.vcxproj -> C:\DEVR\Hazel\bin\Debug-windows-x86_64\Hazel\Hazel.dll
